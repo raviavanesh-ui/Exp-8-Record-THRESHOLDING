@@ -59,6 +59,7 @@ Convert the input image into grayscale format.
 Compare the results obtained from Global, Adaptive, and Otsu's thresholding methods.
 
 ## Program
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -101,7 +102,7 @@ plt.axis('off')
 # Show the plot
 plt.tight_layout()
 plt.show()
-
+```
 #output
 <img width="245" height="154" alt="1df0450e-de23-4ff0-8539-0cb391f0b398" src="https://github.com/user-attachments/assets/170e322e-8724-44e9-bfe1-2d4210f4ecfc" />
 <img width="630" height="419" alt="9a9d2b35-7ac7-4eba-b18f-fdd6f969bc80" src="https://github.com/user-attachments/assets/189035b6-fdee-4006-b5f6-12c29d5f020b" />
